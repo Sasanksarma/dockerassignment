@@ -8,4 +8,4 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 EXPOSE 5003
 
-CMD ["python", "fibpnacii.py"]
+CMD ["python", "fibonacii.py"]
