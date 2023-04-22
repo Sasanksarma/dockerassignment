@@ -15,7 +15,7 @@ services:
     ports:
       - "5002:5002"
   fibonacci:
-    build: ./fibonacci
+    build: ./fibonacii
     ports:
       - "5003:5003"
   db:
