@@ -20,7 +20,7 @@ services:
       - "5003:5003"
   db:
     image: mysql:5.7
-    restart: never
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: '1234'
     volumes:
